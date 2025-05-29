@@ -1,0 +1,42 @@
+import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+
+:root{
+    --primary-color: #8143d1;
+    --secundary-color: #4451c0;
+    --text-color: #b1bee7 ;
+    --brackground-color: #000000 ;
+    --button-hover: #000000 ;
+--font-body: "playfair display", serif;
+--font-titulo: "Quicksand", serif;
+}
+
+/* reset*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+/* corpo da pagina*/
+body{
+    background-color: var(--brackground-color);
+    color:var(--text-color);
+    line-height: 1.6;
+}
+
+h3{
+    margin-top: 25px;
+}
+p{
+    margin-top: 20px;
+}
+img{
+    max-width: 90%;
+}
+/* cabeçalho*/
+header{
+    background: var(--brackground-color);
+    color: beige;
+    text-align: center;
+    padding: 22px;
+}
